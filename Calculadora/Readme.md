@@ -8,7 +8,7 @@ Requisitos previos
 Necesario disponer de la ultima versión de Maven instalada. Tambien hace falta tener JAVA instalado en el sistema.
 
 Como utilizar
-Descargar el repositorio girhub
+Descargar el repositorio de github
 Ejecutar una verificación de Maven
 Instalación limpia de Maven
 Ejecutar el JAR de la carpeta /target
@@ -34,7 +34,7 @@ Si has seguido correctamente los pasos anteriores, deberias tener el puerto 8080
 
 Los parámetros se le deben pasar por URL en formato URLEncoded. Los parametros son los siguientes primero el primer numero de la operación, segundo el segundo numero de la operación y operacion una cadena de texto describiendo la operación a realizar (valores aceptados suma, resta). Por ejemplo:
 
-GET http://localhost:8080/api/calcula?primero=4&segundo=9&operacion=suma
+GET http://localhost:8080/api/calculadora/calcula/suma?operador1=4&operador2=9
 
 El resultado será un valor numerico con decimales (4 + 9 = 13):
 
